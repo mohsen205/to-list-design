@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/style-2.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <title>List - Task</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="add-task shadow p-4 rounded">
+            <div class="d-flex justify-content-between">
+                <div class="back">
+                    <a href="#"> <i class="fas fa-long-arrow-alt-left"></i> </a>
+                </div>
+                <div class="navicon">
+                    <i class="fas fa-align-left"></i>
+                </div>
+            </div>
+            <div class="list-task">
+                <div class="h4">Task List For <span class="text-purple text-uppercase"> Salam </span> </div>
+
+                <form action="" method="post">
+                    <select name="action" id="action" class="form-control" style="width: 100px;">
+                        <option value="Delete">Delete</option>
+                        <option value="Update">Update</option>
+                        <option value="Edit">Edit</option>
+                    </select>
+
+                </form>
+
+                <div class="task shadow-sm rounded-pill d-flex justify-content-between ">
+                    <div>
+                        <input type="checkbox" name="check" id="id-1">
+                    </div>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor
+                        </p>
+                    </div>
+                    <div class="status text-success">
+                        <i class="far fa-check-circle"></i>
+                    </div>
+                </div>
+
+                <div class="task shadow-sm rounded-pill d-flex justify-content-between ">
+                    <div>
+                        <input type="checkbox" name="check" id="id-1">
+                    </div>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        </p>
+                    </div>
+                    <div class="status text-danger">
+                        <i class="far fa-times-circle"></i>
+                    </div>
+                </div>
+
+                <div class="task shadow-sm rounded-pill d-flex justify-content-between ">
+                    <div>
+                        <input type="checkbox" name="check" id="id-1">
+                    </div>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        </p>
+                    </div>
+                    <div class="status text-success">
+                        <i class="far fa-check-circle"></i>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center mt-3">
+
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="./js/app-1.js"></script>
+</body>
+
+</html>
